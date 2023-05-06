@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #222;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#no-btn {
+  margin-left: 20px;
+  transition: all 0.5s ease-out;
+}
+
+#no-btn.clicked {
+  position: absolute;
+  top: calc(50% + 50px);
+  left: calc(50% + 50px);
+}
+
+#love-message {
+  color:white;
+}
+
+.hidden {
+  display: none;
+}
